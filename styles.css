@@ -3,11 +3,18 @@
   justify-content: space-evenly;
 }
 
+.page--title {
+  font-family: "Poller One", cursive;
+  text-align: center;
+}
+
 .card {
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
   max-width: 15rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
 }
 
 .card--light {
@@ -29,4 +36,12 @@
 
 .card__img--light {
   box-shadow: 10px 10px 6px rgb(255, 253, 115);
+}
+
+.card__h2--dark {
+  font-family: "Rubik Wet Paint", cursive;
+}
+
+.card__h2--light {
+  font-family: "Rubik Vinyl", cursive;
 }
